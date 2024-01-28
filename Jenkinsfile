@@ -33,7 +33,11 @@ pipeline
             }
     }
 
-    post{
-            bat 'docker logout'
-    }
+        post{
+              always{
+                      bat 'docker logout'
+
+              }
+
+        }
 }
