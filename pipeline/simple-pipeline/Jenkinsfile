@@ -1,0 +1,40 @@
+pipeline
+{
+
+    agent any
+
+    environment{
+        NUMBER=2
+    }
+    stages{
+
+        stage("Stage -1"){
+            steps{
+                echo "global variable =${NUMBER}"
+                echo "Print statement 1"
+                echo "doing mvn clean package"
+            }
+
+        }
+        stage("Stage - 2"){
+            environment{
+                NUMBER=2
+            }
+            steps{
+                echo "local variable ${NUMBER}"
+                echo "creating docker image"
+            }
+
+        }
+        stage("Stage - 3"){
+                steps{
+                        echo "running docker image"
+                    }
+        }
+    }
+    post{
+            always{
+                    echo "doing clean up"
+            }
+       }
+    }

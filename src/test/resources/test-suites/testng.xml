@@ -1,0 +1,17 @@
+<suite name="flightReservationSuite">
+    <test name="passengersCount-1">
+        <parameter name="noOfPassengers" value="1"></parameter>
+        <parameter name="expectedPrice" value="$584 USD"></parameter>
+        <classes>
+            <class name="com.test.FlightReservationTest"></class>
+        </classes>
+    </test>
+    <test name="passengersCount-2">
+        <parameter name="noOfPassengers" value="2"></parameter>
+        <parameter name="expectedPrice" value="$1169 USD"></parameter>
+        <classes>
+            <class name="com.test.FlightReservationTest"></class>
+            <class name="com.test.VendorPortalTest"></class>
+        </classes>
+    </test>
+   </suite>

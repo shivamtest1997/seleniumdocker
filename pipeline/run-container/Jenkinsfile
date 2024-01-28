@@ -1,0 +1,34 @@
+pipeline
+{
+
+    agent any
+    environment{
+        NUMBER=2
+    }
+    stages{
+
+        stage("Stage -1"){
+            steps{
+                bat "docker run -e number=${NUMBER} shivamtest/square_number"
+            }
+
+        }
+        stage("Stage - 2"){
+            environment{
+                NUMBER=2
+            }
+            steps{
+                echo "local variable ${NUMBER}"
+                 bat "docker run -e number=${NUMBER} shivamtest/square_number"
+            }
+
+        }
+
+    }
+    post{
+            always{
+                    echo "doing clean up"
+                    bat "docker system prune -f"
+            }
+       }
+    }

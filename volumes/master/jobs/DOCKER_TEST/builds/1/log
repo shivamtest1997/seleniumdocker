@@ -1,0 +1,11 @@
+Started by user [8mha:////4GN2gB50wyLvHIrcVmkUPpSkmuTRCAMZfqa9WDtSJ226AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZu/dLi1CL9xJTczDwA+rnvwMAAAAA=[0mShivam Test
+Running as SYSTEM
+Building remotely on [8mha:////4FW2CMkjccwo7xegFE3QaZqpo7wbapnxDcQIdASlJHDbAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQifT+gOxUMAcDOlKnFAAAA[0mNode 1 in workspace D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\DOCKER_TEST
+[DOCKER_TEST] $ cmd /c call C:\Users\skomawar\AppData\Local\Temp\jenkins7723751040058566375.bat
+
+D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\DOCKER_TEST>docker ps 
+CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS          PORTS                                              NAMES
+0a33150b37fb   jenkins/jenkins:lts   "/usr/bin/tini -- /u…"   20 minutes ago   Up 20 minutes   0.0.0.0:8080->8080/tcp, 0.0.0.0:50000->50000/tcp   jenkins_vendorportal-jenkins-1
+
+D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\DOCKER_TEST>exit 0 
+Finished: SUCCESS

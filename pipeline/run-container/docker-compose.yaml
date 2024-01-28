@@ -1,0 +1,9 @@
+version: "3"
+services:
+  squares:
+    image: shivamtest/square_number
+    environment:
+    #- number=5
+    - number=${num}
+    # - NUMBER
+  

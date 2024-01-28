@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
+<!--We can execute test in parallel as well to do so add parallel in suite-->
+<suite name="VendorPortalSuite" thread-count="3">
+    <test name="user-sam">
+        <parameter name="testDataPath" value="test-data/sam.json"></parameter>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.test.VendorPortalTest"></class>
+        </classes>
+    </test>
+    <test name="user-mike">
+        <parameter name="testDataPath" value="test-data/mike.json"></parameter>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.test.VendorPortalTest"></class>
+        </classes>
+    </test>
+    <test name="user-john">
+        <parameter name="testDataPath" value="test-data/john.json"></parameter>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.test.VendorPortalTest"></class>
+        </classes>
+    </test>
+   </suite>
