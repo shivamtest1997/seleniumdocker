@@ -17,7 +17,7 @@ pipeline
             }
 
         }
-        stage("Build docker image"){
+        stage("push docker image"){
               steps{
                     bat 'docker push selenium_docker_jenkins'
               }
