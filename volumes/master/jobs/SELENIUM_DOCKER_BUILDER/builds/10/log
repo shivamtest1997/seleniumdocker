@@ -1,0 +1,307 @@
+Started by user [8mha:////4GN2gB50wyLvHIrcVmkUPpSkmuTRCAMZfqa9WDtSJ226AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZu/dLi1CL9xJTczDwA+rnvwMAAAAA=[0mShivam Test
+Obtained Jenkinsfile from git https://github.com/shivamtest1997/seleniumdocker.git
+[8mha:////4NeRSTwW48TBYPjOxwWJ4H2nleBjUB1p+bKB6W1TvXF9AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4KUJLUNQwFQRMtf/ekR7J+en+07RgOKKZVZiQe0GuiKBAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4HZnBb9CW6r/NrN/j7qgi+OAH4+5jNHooGzby7/GsK3+AAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZh/eT83ILSktQifT+gO1WNDAz1AUlQ7vDIAAAA[0mNode 1 in D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER
+[8mha:////4H7SrW8VsAOPrfyTsfk1XMRyUzSmoBg5wAh5LnOkETiSAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4BxMfC2gu7f0Zh8MtXSax7EfzchYgg16Ew0hgQNnqXS0AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4BiaILGcz3tjtjSYz0Utmdi1kOwQeOebFlya8gUQ/T34AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4Nb+Z7x6XihSAU4kOD6ny2QoUoL5yaBnXSNZeZcEdODZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: git
+No credentials specified
+Fetching changes from the remote Git repository
+Cleaning workspace
+ > git rev-parse --resolve-git-dir D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\.git # timeout=10
+ > git config remote.origin.url https://github.com/shivamtest1997/seleniumdocker.git # timeout=10
+ > git rev-parse --verify HEAD # timeout=10
+Resetting working tree
+ > git reset --hard # timeout=10
+ > git clean -fdx # timeout=10
+Fetching upstream changes from https://github.com/shivamtest1997/seleniumdocker.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.41.0.windows.1'
+ > git fetch --tags --force --progress -- https://github.com/shivamtest1997/seleniumdocker.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision ed52b50ce6b26576fcdc9c62acf847ade76a2f84 (refs/remotes/origin/main)
+ > git rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ed52b50ce6b26576fcdc9c62acf847ade76a2f84 # timeout=10
+Commit message: "updated jenkins file"
+ > git rev-list --no-walk 36db911ee42add9fc18daa812683dcbe28289c09 # timeout=10
+[8mha:////4G1BgurwxhMFRerXcyAyDs8ZpCZZ/KYDOakTgBK0vIb0AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4PGfeYNrQk1uGxDMin+WKgdbITHZlxEJCN5UbRl1kahOAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4BaWHNSh2BpX2sGZzTLmsNvUVwHXgYm6xQ+BiMUpVXbjAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4KasGk/cE7gktIbH4PD2UwGkTiQBrC7uaWgq2vqAxbiFAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4NZCMynCw5Z/iMTzyJRKf4gu/Gvbj28zFfAkXiaUH7DuAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4PcmBnkqsdMIdxH0uZxiiEBvZf5eu1ycex3jPWw3XgHBAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (build jar file)
+[8mha:////4C2tNz7EiiZ+yfy4PdPoTlSSPD16nNcwXZQfrudNl6YYAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] bat
+
+D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER>mvn clean package -DskipTests 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.vinsguru:selenium-docker >--------------------
+[INFO] Building selenium-docker 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for org.seleniumhq.selenium:selenium-devtools-v119:jar:4.16.0 is missing, no dependency information available
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ selenium-docker ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ selenium-docker ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ selenium-docker ---
+[INFO] Changes detected - recompiling the module! :source
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 4 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:testResources (default-testResources) @ selenium-docker ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 6 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ selenium-docker ---
+[INFO] Changes detected - recompiling the module! :dependency
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 7 source files with javac [debug release 17] to target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.1.2:test (default-test) @ selenium-docker ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.6.0:copy-dependencies (copy-dependencies) @ selenium-docker ---
+[INFO] Copying selenium-java-4.16.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-java-4.16.0.jar
+[INFO] Copying selenium-api-4.16.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-api-4.16.0.jar
+[INFO] Copying selenium-chrome-driver-4.16.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-chrome-driver-4.16.0.jar
+[INFO] Copying auto-service-annotations-1.1.1.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\auto-service-annotations-1.1.1.jar
+[INFO] Copying selenium-chromium-driver-4.16.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-chromium-driver-4.16.0.jar
+[INFO] Copying selenium-json-4.16.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-json-4.16.0.jar
+[INFO] Copying selenium-manager-4.16.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-manager-4.16.0.jar
+[INFO] Copying selenium-devtools-v118-4.16.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-devtools-v118-4.16.0.jar
+[INFO] Copying selenium-devtools-v119-4.16.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-devtools-v119-4.16.0.jar
+[INFO] Copying selenium-devtools-v120-4.16.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-devtools-v120-4.16.0.jar
+[INFO] Copying selenium-devtools-v85-4.16.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-devtools-v85-4.16.0.jar
+[INFO] Copying selenium-edge-driver-4.16.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-edge-driver-4.16.0.jar
+[INFO] Copying selenium-firefox-driver-4.16.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-firefox-driver-4.16.0.jar
+[INFO] Copying selenium-http-4.16.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-http-4.16.0.jar
+[INFO] Copying failsafe-3.3.2.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\failsafe-3.3.2.jar
+[INFO] Copying selenium-ie-driver-4.16.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-ie-driver-4.16.0.jar
+[INFO] Copying selenium-remote-driver-4.16.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-remote-driver-4.16.0.jar
+[INFO] Copying guava-32.1.2-jre.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\guava-32.1.2-jre.jar
+[INFO] Copying failureaccess-1.0.1.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\failureaccess-1.0.1.jar
+[INFO] Copying listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[INFO] Copying jsr305-3.0.2.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\jsr305-3.0.2.jar
+[INFO] Copying checker-qual-3.33.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\checker-qual-3.33.0.jar
+[INFO] Copying error_prone_annotations-2.18.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\error_prone_annotations-2.18.0.jar
+[INFO] Copying j2objc-annotations-2.8.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\j2objc-annotations-2.8.jar
+[INFO] Copying opentelemetry-api-1.28.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-api-1.28.0.jar
+[INFO] Copying opentelemetry-context-1.28.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-context-1.28.0.jar
+[INFO] Copying opentelemetry-exporter-logging-1.28.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-exporter-logging-1.28.0.jar
+[INFO] Copying opentelemetry-sdk-metrics-1.28.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-sdk-metrics-1.28.0.jar
+[INFO] Copying opentelemetry-extension-incubator-1.28.0-alpha.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-extension-incubator-1.28.0-alpha.jar
+[INFO] Copying opentelemetry-sdk-logs-1.28.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-sdk-logs-1.28.0.jar
+[INFO] Copying opentelemetry-sdk-common-1.28.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-sdk-common-1.28.0.jar
+[INFO] Copying opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar
+[INFO] Copying opentelemetry-sdk-extension-autoconfigure-1.28.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar
+[INFO] Copying opentelemetry-api-events-1.28.0-alpha.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-api-events-1.28.0-alpha.jar
+[INFO] Copying opentelemetry-sdk-trace-1.28.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-sdk-trace-1.28.0.jar
+[INFO] Copying opentelemetry-sdk-1.28.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-sdk-1.28.0.jar
+[INFO] Copying opentelemetry-semconv-1.28.0-alpha.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-semconv-1.28.0-alpha.jar
+[INFO] Copying byte-buddy-1.14.5.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\byte-buddy-1.14.5.jar
+[INFO] Copying selenium-os-4.16.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-os-4.16.0.jar
+[INFO] Copying commons-exec-1.3.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\commons-exec-1.3.jar
+[INFO] Copying selenium-safari-driver-4.16.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-safari-driver-4.16.0.jar
+[INFO] Copying selenium-support-4.16.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-support-4.16.0.jar
+[INFO] Copying logback-classic-1.4.14.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\logback-classic-1.4.14.jar
+[INFO] Copying logback-core-1.4.14.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\logback-core-1.4.14.jar
+[INFO] Copying slf4j-api-2.0.7.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\slf4j-api-2.0.7.jar
+[INFO] Copying webdrivermanager-5.6.3.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\webdrivermanager-5.6.3.jar
+[INFO] Copying gson-2.10.1.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\gson-2.10.1.jar
+[INFO] Copying docker-java-3.3.4.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\docker-java-3.3.4.jar
+[INFO] Copying docker-java-core-3.3.4.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\docker-java-core-3.3.4.jar
+[INFO] Copying docker-java-api-3.3.4.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\docker-java-api-3.3.4.jar
+[INFO] Copying commons-io-2.13.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\commons-io-2.13.0.jar
+[INFO] Copying bcpkix-jdk18on-1.76.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\bcpkix-jdk18on-1.76.jar
+[INFO] Copying bcprov-jdk18on-1.76.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\bcprov-jdk18on-1.76.jar
+[INFO] Copying bcutil-jdk18on-1.76.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\bcutil-jdk18on-1.76.jar
+[INFO] Copying jcl-over-slf4j-1.7.30.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\jcl-over-slf4j-1.7.30.jar
+[INFO] Copying docker-java-transport-httpclient5-3.3.4.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\docker-java-transport-httpclient5-3.3.4.jar
+[INFO] Copying docker-java-transport-3.3.4.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\docker-java-transport-3.3.4.jar
+[INFO] Copying jna-5.13.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\jna-5.13.0.jar
+[INFO] Copying dec-0.1.2.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\dec-0.1.2.jar
+[INFO] Copying commons-lang3-3.14.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\commons-lang3-3.14.0.jar
+[INFO] Copying commons-compress-1.25.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\commons-compress-1.25.0.jar
+[INFO] Copying httpclient5-5.2.1.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\httpclient5-5.2.1.jar
+[INFO] Copying httpcore5-5.2.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\httpcore5-5.2.jar
+[INFO] Copying httpcore5-h2-5.2.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\httpcore5-h2-5.2.jar
+[INFO] Copying jackson-databind-2.16.1.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\jackson-databind-2.16.1.jar
+[INFO] Copying jackson-annotations-2.16.1.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\jackson-annotations-2.16.1.jar
+[INFO] Copying jackson-core-2.16.1.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\jackson-core-2.16.1.jar
+[INFO] Copying testng-7.9.0.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\testng-7.9.0.jar
+[INFO] Copying jcommander-1.82.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\jcommander-1.82.jar
+[INFO] Copying jquery-3.7.1.jar to D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\jquery-3.7.1.jar
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:copy-resources (copy-resources) @ selenium-docker ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 6 resources from src\test\resources to target\docker-resources
+[INFO] 
+[INFO] --- maven-jar-plugin:3.3.0:jar (default-jar) @ selenium-docker ---
+[INFO] Building jar: D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-docker.jar
+[INFO] 
+[INFO] --- maven-jar-plugin:3.3.0:test-jar (default) @ selenium-docker ---
+[INFO] Building jar: D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-docker-tests.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.870 s
+[INFO] Finished at: 2024-01-28T22:38:58+05:30
+[INFO] ------------------------------------------------------------------------
+[8mha:////4DBgKbW5Di/bCF4zeiaL8EGKAgTHE2GrV4NgSBTQErL9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N7BnLt++AAAA[0m[Pipeline] }
+[8mha:////4Mce3mUSqRzpnmejNektWrYKGe1SrGI6KSUvWW0bjpqGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N4glvS6+AAAA[0m[Pipeline] // stage
+[8mha:////4Ow1B5Py8WdsoO/hZV5O3JdGvgd2b7CCh0kyu93iiTDMAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUnRgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9ANydZ8vCAAAA[0m[Pipeline] stage
+[8mha:////4NzKXmJxq5xIFKd65/Mg4O0PLZC6JHCKZJ0SMRVgVMzmAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Build docker image)
+[8mha:////4MGz5uiH7d6APUMDHsbQRwZAphtl984Q8d9YFOixbsAVAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] bat
+
+D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER>docker build -t=shivamtest1997/selenium_docker_jenkins . 
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 309B 0.0s done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/bellsoft/liberica-openjdk-alpine:17.0.8
+#3 ...
+
+#4 [auth] bellsoft/liberica-openjdk-alpine:pull token for registry-1.docker.io
+#4 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/bellsoft/liberica-openjdk-alpine:17.0.8
+#3 DONE 2.1s
+
+#5 [1/5] FROM docker.io/bellsoft/liberica-openjdk-alpine:17.0.8@sha256:e82fb905ca6efffcdb1b0ed58f207b0ce91aeada78c218ae7dbb16bb31635728
+#5 DONE 0.0s
+
+#6 [internal] load build context
+#6 transferring context: 25.61kB 0.0s done
+#6 DONE 0.0s
+
+#7 [2/5] RUN apk add curl jq
+#7 CACHED
+
+#8 [3/5] WORKDIR /home/selenium-docker
+#8 CACHED
+
+#9 [4/5] ADD target/docker-resources ./
+#9 DONE 0.6s
+
+#10 [5/5] ADD runner.sh  runner.sh
+#10 DONE 0.1s
+
+#11 exporting to image
+#11 exporting layers
+#11 exporting layers 0.4s done
+#11 writing image sha256:ddc027aa06921fcb15aafedbc50e859bc9ad01320d5e1d9465829e02a04ed818 done
+#11 naming to docker.io/shivamtest1997/selenium_docker_jenkins done
+#11 DONE 0.4s
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview
+[8mha:////4K6sfHElL/FJnndT4lIgvRKZ1gT+P5wt+XPQ/FhoG0wMAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AEWNdkpvgAAAA==[0m[Pipeline] }
+[8mha:////4B+IW2AfhkHM1Ikskab2Mq4fiQ2JmARw+UVsd26bppdwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0FAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEi+zpyvgAAAA==[0m[Pipeline] // stage
+[8mha:////4AdvOaTo+0tstlZxRFq6dsutRDSFTRLTokwvaaS3S7W8AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohU7YqYWKMunCCkISSN/m+TlHbiRFyNOxCoxIQHy7ZkvecLyhjgSMFwp7G3GJXlg59MTnym0F89zdzRhSvCSF7zVs8tdfq01paShlUFg42ArUblKVo0CXbCybusvERTnVPI20EAs90IDyhEJicZ0rcsAfa3qYuEP85fACxDAlbX2Zrm8yzf8hZCqsIAAAA=[0m[Pipeline] stage
+[8mha:////4BqNUPxuCXCINT1tDXs+ipmiid9pT+Mbm3IwS9ZEEV5QAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] { (push docker image)
+[8mha:////4C84dT/l+5KSp9Do1TRV6yAg0pkU9py192aRkRqwEoGHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7ndf2r3Bkv9tw6+AAAA[0m[Pipeline] }
+[8mha:////4KPYg+I8trhIP3RLgUEDU4EKM9G2v0gqp65uN5AcUhTwAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNHEyTq6ExS/AFhFK3qNApZNf5K/5D6JNnLzDzT13Oc8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DXge7LK+AAAA[0m[Pipeline] // stage
+[8mha:////4A86ADyvTE9u8MtKVWFisAchhT2t426Dodxiv4SLZjYiAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZWBBTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFsmmy7/edZvQHkVNMxwgAAAA==[0m[Pipeline] stage
+[8mha:////4EbJhhLALZsJsRxt43LD37d7MhhOmRm/fxNn2juv55e6AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4Io94NL3fcWj+G9X2tics7Xx1/G00LHT1GuHpF2HTxeCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] bat
+
+D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_BUILDER>docker logout 
+Removing login credentials for https://index.docker.io/v1/
+[8mha:////4CbL86DRA05RYbfUzZt3BCOhOvAgVun9YRHuWew6+085AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGMKkS1vgAAAA==[0m[Pipeline] }
+[8mha:////4NkxDIFLfzKRjGnzdKk0hTRbwdAtRoDOr1oREV6CZv0AAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] // stage
+[8mha:////4CyqCCHzH9MPptGhsWBqZ/oTH/OomFfxeW98z2JrfnZDAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJRRImoaC03vMAkxtix7ox9Ial4EV/jD1hEomKL1c4283rDOic4UrLCGxwc5s6JGEZblpgoDddAk/B0ER1hpmCEMpOi3pwWVMQGllQ1rCRsDHaBskPLsJVeP3QTNNrmzKl8Bwm16+/whEoWM+vEX5gT7G5jnwl/nr8CmGNkqPdtqbb9AKNVLj2+AAAA[0m[Pipeline] }
+[8mha:////4GJ/HKoBx7AvHtfwzIpdx3hqZxsy+ZFNB0TpwMyO3rSDAAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY59ptP5sXvcy+AAAA[0m[Pipeline] // withEnv
+[8mha:////4EWGPsLqcXr5ivjzHTFNeBajXdWCt4sCAkxc6ZvQOHjZAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU2DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyshRk+w9e8C3YvQAAAA==[0m[Pipeline] }
+[8mha:////4CabB4t1HEGjLQSEmmcdPUWK8Yrb9a4+KTI3f3DunkfIAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU2DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg/tuWn0vQAAAA==[0m[Pipeline] // node
+[8mha:////4Ppf+8XwWMjypMWbGx+bKXOZm0M57NLRyRLsrv4wip0yAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPy6AOvr0AAAA=[0m[Pipeline] End of Pipeline
+Also:   org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: 82931cdd-dea1-4554-ae3e-903cfd73bb76
+java.lang.NoSuchMethodError: No such DSL method 'credentails' found among steps [archive, bat, build, catchError, checkout, deleteDir, dir, dockerFingerprintFrom, dockerFingerprintRun, echo, emailext, emailextrecipients, envVarsForTool, error, fileExists, findBuildScans, getContext, git, input, isUnix, junit, library, libraryResource, load, mail, milestone, node, parallel, powershell, properties, publishChecks, pwd, pwsh, readFile, readTrusted, resolveScm, retry, script, sh, sleep, stage, stash, step, timeout, timestamps, tm, tool, unarchive, unstable, unstash, validateDeclarativePipeline, waitForBuild, waitUntil, warnError, withChecks, withContext, withCredentials, withDockerContainer, withDockerRegistry, withDockerServer, withEnv, withGradle, wrap, writeFile, ws] or symbols [GitUsernamePassword, agent, all, allBranchesSame, allOf, always, ant, antFromApache, antOutcome, antTarget, any, anyOf, apiToken, apiTokenProperty, architecture, archiveArtifacts, artifactManager, assembla, authorInChangelog, authorizationMatrix, batchFile, bitbucket, bitbucketServer, booleanParam, branch, brokenBuildSuspects, brokenTestsSuspects, browser, buildButton, buildDiscarder, buildDiscarders, buildRetention, buildSingleRevisionOnly, buildUser, buildingTag, builtInNode, caseInsensitive, caseSensitive, certificate, cgit, changeRequest, changelog, changelogBase, changelogToBranch, changeset, checkoutOption, checkoutToSubdirectory, choice, choiceParam, cleanAfterCheckout, cleanBeforeCheckout, cleanWs, clock, cloneOption, command, contributor, credentials, cron, crumb, culprits, defaultDisplayUrlProvider, defaultFolderConfiguration, defaultView, demand, developers, disableConcurrentBuilds, disableRestartFromStage, disableResume, discoverOtherRefs, discoverOtherRefsTrait, docker, dockerCert, dockerServer, dockerTool, dockerfile, downstream, dumb, durabilityHint, email-ext, envVars, envVarsFilter, environment, equals, experimentalFlags, expression, extendedEmailPublisher, file, fileParam, filePath, fingerprint, fingerprints, fisheye, frameOptions, freeStyle, freeStyleJob, fromDocker, fromScm, fromSource, git, gitBranchDiscovery, gitHooks, gitHubBranchDiscovery, gitHubBranchHeadAuthority, gitHubExcludeArchivedRepositories, gitHubExcludeForkedRepositories, gitHubExcludePrivateRepositories, gitHubExcludePublicRepositories, gitHubForkDiscovery, gitHubIgnoreDraftPullRequestFilter, gitHubPullRequestDiscovery, gitHubSshCheckout, gitHubTagDiscovery, gitHubTopicsFilter, gitHubTrustContributors, gitHubTrustEveryone, gitHubTrustNobody, gitHubTrustPermissions, gitLab, gitList, gitSCM, gitTagDiscovery, gitTool, gitUsernamePassword, gitWeb, gitblit, github, githubProjectProperty, githubPush, gitiles, gogs, gradle, group, headRegexFilter, headWildcardFilter, hyperlink, hyperlinkToModels, ignoreOnPush, inbound, inheriting, inheritingGlobal, installSource, isRestartedRun, jdk, jgit, jgitapache, jnlp, jobBuildDiscarder, jobName, junitTestResultStorage, kiln, label, lastDuration, lastFailure, lastGrantedAuthorities, lastStable, lastSuccess, legacy, legacySCM, lfs, list, local, localBranch, localBranchTrait, location, logRotator, loggedInUsersCanDoAnything, mailer, masterBuild, maven, maven3Mojos, mavenErrors, mavenGlobalConfig, mavenMojos, mavenWarnings, modernSCM, multiBranchProjectDisplayNaming, multibranch, myView, namedBranchesDifferent, newContainerPerStage, node, nodeProperties, nonInheriting, none, nonresumable, not, organizationFolder, overrideIndexTriggers, paneStatus, parallelsAlwaysFailFast, parameters, password, pattern, perBuildTag, permanent, phabricator, pipeline, pipeline-model, pipeline-model-docker, pipelineTriggers, plainText, plugin, pollSCM, preserveStashes, previous, projectNamingStrategy, proxy, pruneStaleBranch, pruneStaleTag, pruneTags, queueItemAuthenticator, quietPeriod, rateLimit, rateLimitBuilds, recipients, redmine, refSpecs, remoteName, requestor, resourceRoot, retainOnlyVariables, rhodeCode, run, runParam, sSHLauncher, schedule, scmGit, scmRetryCount, scriptApproval, scriptApprovalLink, search, security, shell, simpleBuildDiscarder, skipDefaultCheckout, skipStagesAfterUnstable, slave, sourceRegexFilter, sourceWildcardFilter, sparseCheckoutPaths, ssh, sshUserPrivateKey, standard, status, string, stringParam, submodule, submoduleOption, suppressAutomaticTriggering, suppressFolderAutomaticTriggering, swapSpace, tag, teamFoundation, teamSlugFilter, text, textParam, timestamper, timestamperConfig, timezone, tmpSpace, toolLocation, triggeredBy, unsecured, untrusted, upstream, upstreamDevelopers, user, userIdentity, userOrGroup, userSeed, usernameColonPassword, usernamePassword, viewgit, viewsTabBar, weather, withAnt, x509ClientCert, zip] or globals [currentBuild, docker, env, params, pipeline, scm]
+	at org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:219)
+	at org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:124)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:41)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:180)
+	at org.kohsuke.groovy.sandbox.GroovyInterceptor.onMethodCall(GroovyInterceptor.java:23)
+	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterceptor.java:163)
+	at org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:178)
+	at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:182)
+	at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:152)
+	at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:152)
+	at com.cloudbees.groovy.cps.sandbox.SandboxInvoker.methodCall(SandboxInvoker.java:17)
+	at org.jenkinsci.plugins.workflow.cps.LoggingInvoker.methodCall(LoggingInvoker.java:105)
+	at WorkflowScript.run(WorkflowScript)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withEnvBlock(ModelInterpreter.groovy:431)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.callClosureForMapEntry(CpsDefaultGroovyMethods:5361)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.collect(CpsDefaultGroovyMethods:3563)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.collect(CpsDefaultGroovyMethods:3580)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withEnvBlock(ModelInterpreter.groovy:429)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:275)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withCredentialsBlock(ModelInterpreter.groovy:481)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withCredentialsBlock(ModelInterpreter.groovy:480)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:274)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.inDeclarativeAgent(ModelInterpreter.groovy:586)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.inDeclarativeAgent(ModelInterpreter.groovy:585)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:272)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.stageInput(ModelInterpreter.groovy:356)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.stageInput(ModelInterpreter.groovy:355)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:261)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.inWrappers(ModelInterpreter.groovy:618)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.inWrappers(ModelInterpreter.groovy:617)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:259)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withEnvBlock(ModelInterpreter.groovy:443)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withEnvBlock(ModelInterpreter.groovy:442)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:254)
+	at ___cps.transform___(Native Method)
+	at com.cloudbees.groovy.cps.impl.ContinuationGroup.methodCall(ContinuationGroup.java:90)
+	at com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:116)
+	at com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixArg(FunctionCallBlock.java:85)
+	at jdk.internal.reflect.GeneratedMethodAccessor305.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)
+	at com.cloudbees.groovy.cps.impl.ConstantBlock.eval(ConstantBlock.java:21)
+	at com.cloudbees.groovy.cps.Next.step(Next.java:83)
+	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:152)
+	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:146)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:136)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:275)
+	at com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:146)
+	at org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$001(SandboxContinuable.java:18)
+	at org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:51)
+	at org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:187)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:423)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:331)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:295)
+	at org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$2.call(CpsVmExecutorService.java:97)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Finished: FAILURE

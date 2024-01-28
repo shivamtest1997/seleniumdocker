@@ -18,10 +18,9 @@ pipeline
 
         }
         stage("push docker image"){
-
                 environment{
 
-                    DOCKER_HUB_CREDS=credentails('dockerhub-creds')
+                    DOCKER_HUB_CREDS=credentials('dockerhub-creds')
                 }
 
               steps{
