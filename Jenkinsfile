@@ -18,10 +18,22 @@ pipeline
 
         }
         stage("push docker image"){
+
+                environment{
+
+                    DOCKER_HUB_CREDS=credentails('dockerhub-creds')
+                }
+
               steps{
+
+                    bat 'docker login -u ${DOCKER_HUB_USR} -p ${DOCKER_HUB_PSW}'
                     bat 'docker push selenium_docker_jenkins'
               }
 
-        }
+            }
     }
+
+    post{
+            bat 'docker logout'
     }
+}
