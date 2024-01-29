@@ -21,7 +21,7 @@ pipeline
 
                 environment{
 
-                    DOCKER_HUB_CREDS=credentails('dockerhub-creds')
+                    DOCKER_HUB_CREDS=credentials('dockerhub-creds')
                 }
 
               steps{
