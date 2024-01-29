@@ -20,7 +20,7 @@ pipeline
         stage("push docker image"){
                 environment{
 
-                    DOCKER_HUB_CREDS=credentials('dockerhub-creds')
+                    DOCKER_HUB=credentials('dockerhub-creds')
                 }
 
               steps{
@@ -29,6 +29,7 @@ pipeline
                     bat 'docker push selenium_docker_jenkins'
                     bat "docker tag shivamtest1997/selenium_docker_jenkins:latest shivamtest1997/selenium_docker_jenkins:${env.BUILD_NUMBER}"
                     bat "docker push shivamtest1997/selenium_docker_jenkins:${env.BUILD_NUMBER}"
+
               }
 
             }
