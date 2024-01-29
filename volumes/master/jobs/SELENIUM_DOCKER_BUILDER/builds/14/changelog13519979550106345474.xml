@@ -1,0 +1,13 @@
+commit 0a3ba28c07a567349ba415b48d6a4464086c5457
+tree 073c30ba28c05ada32fed97d32a07ed1a601ea61
+parent bef4ed9e4cd72585cf8cd777d5c9ef1648c9035e
+author shivamTest <shivamest1997@gmail.com> 2024-01-29 08:56:54 +0530
+committer shivamTest <shivamest1997@gmail.com> 2024-01-29 08:56:54 +0530
+
+    updated jenkins file with --password stdn
+
+
+:100644 100644 beb68d47e70afbb0360006e415d0f75b99917ba4 3758ba8b70ff31b22cafdb397dc73de12cbc7c63 M	Jenkinsfile
+:000000 100644 0000000000000000000000000000000000000000 b64644448e5c850a8cc04b3d07927a60c351764f A	volumes/master/.java/fonts/17.0.9/fcinfo-1-61ef1518d012-Debian GNU/Linux-12-en-.properties
+:000000 100644 0000000000000000000000000000000000000000 6d10c04955cda1aa4fb45044e1f36a26d2635f84 A	volumes/master/.java/fonts/17.0.9/fcinfo-1-7a8655a92763-Debian GNU/Linux-12-en-.properties
+:000000 100644 0000000000000000000000000000000000000000 804edeecfd12addeffc9904b46d291e90262a149 A	volumes/master/.java/fonts/17.0.9/fcinfo-1-b8085b591a47-Debian GNU/Linux-12-en-.properties

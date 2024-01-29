@@ -20,12 +20,12 @@ pipeline
         stage("push docker image"){
                 environment{
 
-                    DOCKER_HUB=credentials('dockerhub-creds')
+                          DOCKER_HUB = credentials('dockerhub')
                 }
 
               steps{
 
-                    bat 'echo ${DOCKER_HUB_PSW} | docker login -u ${DOCKER_HUB_USR} --password-stdin'
+                    bat '${DOCKER_HUB_PSW} | docker login -u ${DOCKER_HUB_USR} --password-stdin'
                     bat 'docker push selenium_docker_jenkins'
                     bat "docker tag shivamtest1997/selenium_docker_jenkins:latest shivamtest1997/selenium_docker_jenkins:${env.BUILD_NUMBER}"
                     bat "docker push shivamtest1997/selenium_docker_jenkins:${env.BUILD_NUMBER}"
