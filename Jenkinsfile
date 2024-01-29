@@ -2,6 +2,7 @@ pipeline
 {
 
     agent any
+
     stages{
 
         stage("build jar file"){
@@ -17,30 +18,27 @@ pipeline
 
         }
         stage("push docker image"){
-             environment {
-                    // Define Docker Hub credentials
-                    DOCKER_HUB_USERNAME = credentials('shivamtest1997')
-                    DOCKER_HUB_PASSWORD = credentials('Shivam@123')
+
+                environment{
+
+                    DOCKER_HUB_CREDS=credentails('dockerhub-creds')
                 }
+
               steps{
 
-                bat 'docker login -u ${DOCKER_HUB_USERNAME} -p ${DOCKER_HUB_PASSWORD}'
-                bat 'docker push shivamtest1997/selenium_docker_jenkins'
-//                     bat '${DOCKER_HUB_PSW} | docker login -u ${DOCKER_HUB_USR} --password-stdin'
-//                     bat 'docker push selenium_docker_jenkins'
-//                     bat "docker tag shivamtest1997/selenium_docker_jenkins:latest shivamtest1997/selenium_docker_jenkins:${env.BUILD_NUMBER}"
-//                     bat "docker push shivamtest1997/selenium_docker_jenkins:${env.BUILD_NUMBER}"
-
+                    bat 'echo ${DOCKER_HUB_PSW} | docker login -u ${DOCKER_HUB_USR} --password-stdin'
+                    bat 'docker login -u ${DOCKER_HUB_USR} -p ${DOCKER_HUB_PSW}'
+                    bat 'docker push selenium_docker_jenkins'
               }
 
             }
     }
 
-        post{
-              always{
-                      bat 'docker logout'
+    post{
+            always{
+                    bat 'docker logout'
 
-              }
+            }
 
-        }
+    }
 }
