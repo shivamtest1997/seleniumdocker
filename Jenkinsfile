@@ -3,9 +3,9 @@ pipeline
 
     agent any
      environment {
-//         DOCKER_HUB_CREDENTIALS = credentials('dockerhub-creds')
-    DOCKER_HUB_USERNAME = 'shivamtest1997'
-    DOCKER_HUB_PASSWORD = 'shivamtest'
+        DOCKER_HUB_CREDENTIALS = credentials('dockerhub-creds')
+        DOCKER_HUB_USERNAME = sh(script: "echo \$DOCKER_HUB_CREDENTIALS_USR", returnStdout: true).trim()
+        DOCKER_HUB_PASSWORD = sh(script: "echo \$DOCKER_HUB_CREDENTIALS_PSW", returnStdout: true).trim()
         IMAGE_NAME = 'shivamtest1997/selenium_docker_jenkins'
     }
     stages{
@@ -25,8 +25,7 @@ pipeline
         stage('Push Image'){
             steps {
                       script {
-//                             docker.withRegistry('https://registry.hub.docker.com', DOCKER_HUB_CREDENTIALS) {
-        docker.withRegistry('https://registry.hub.docker.com', DOCKER_HUB_USERNAME, DOCKER_HUB_PASSWORD){
+                            docker.withRegistry('https://registry.hub.docker.com', DOCKER_HUB_CREDENTIALS) {
                                     docker.image(IMAGE_NAME).push()
                             }
                      }
