@@ -1,0 +1,220 @@
+Started by user [8mha:////4GN2gB50wyLvHIrcVmkUPpSkmuTRCAMZfqa9WDtSJ226AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZu/dLi1CL9xJTczDwA+rnvwMAAAAA=[0mShivam Test
+Obtained Jenkinsfile from git https://github.com/shivamtest1997/selenium-docker-runner.git
+[8mha:////4NeRSTwW48TBYPjOxwWJ4H2nleBjUB1p+bKB6W1TvXF9AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4KUJLUNQwFQRMtf/ekR7J+en+07RgOKKZVZiQe0GuiKBAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4HZnBb9CW6r/NrN/j7qgi+OAH4+5jNHooGzby7/GsK3+AAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZh/eT83ILSktQifT+gO1WNDAz1AUlQ7vDIAAAA[0mNode 1 in D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_RUNNER
+[8mha:////4H7SrW8VsAOPrfyTsfk1XMRyUzSmoBg5wAh5LnOkETiSAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4BxMfC2gu7f0Zh8MtXSax7EfzchYgg16Ew0hgQNnqXS0AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4BiaILGcz3tjtjSYz0Utmdi1kOwQeOebFlya8gUQ/T34AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4Nb+Z7x6XihSAU4kOD6ny2QoUoL5yaBnXSNZeZcEdODZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Fetching changes from the remote Git repository
+Cleaning workspace
+ > git rev-parse --resolve-git-dir D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_RUNNER\.git # timeout=10
+ > git config remote.origin.url https://github.com/shivamtest1997/selenium-docker-runner.git # timeout=10
+ > git rev-parse --verify HEAD # timeout=10
+Resetting working tree
+ > git reset --hard # timeout=10
+ > git clean -fdx # timeout=10
+Fetching upstream changes from https://github.com/shivamtest1997/selenium-docker-runner.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.41.0.windows.1'
+ > git fetch --tags --force --progress -- https://github.com/shivamtest1997/selenium-docker-runner.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision 178ffc01086e551ac1c82e88a34061e74744169e (refs/remotes/origin/main)
+Commit message: "running project"
+First time build. Skipping changelog.
+[8mha:////4G1BgurwxhMFRerXcyAyDs8ZpCZZ/KYDOakTgBK0vIb0AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 178ffc01086e551ac1c82e88a34061e74744169e # timeout=10
+[8mha:////4PGfeYNrQk1uGxDMin+WKgdbITHZlxEJCN5UbRl1kahOAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4BaWHNSh2BpX2sGZzTLmsNvUVwHXgYm6xQ+BiMUpVXbjAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4KasGk/cE7gktIbH4PD2UwGkTiQBrC7uaWgq2vqAxbiFAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4NZCMynCw5Z/iMTzyJRKf4gu/Gvbj28zFfAkXiaUH7DuAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4PcmBnkqsdMIdxH0uZxiiEBvZf5eu1ycex3jPWw3XgHBAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Run Test)
+[8mha:////4C2tNz7EiiZ+yfy4PdPoTlSSPD16nNcwXZQfrudNl6YYAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] bat
+
+D:\Shivam's Learning\DevOps\Selenium-docker\Jenkins_VendorPortal\volumes\node\workspace\SELENIUM_DOCKER_RUNNER>docker-compose up 
+ Network selenium_docker_runner_default  Creating
+ Network selenium_docker_runner_default  Created
+ Container selenium_docker_runner-hub-1  Creating
+ Container selenium_docker_runner-hub-1  Created
+ Container selenium_docker_runner-firefox-1  Creating
+ Container selenium_docker_runner-chrome-1  Creating
+ Container selenium_docker_runner-chrome-1  Created
+ Container selenium_docker_runner-firefox-1  Created
+ Container selenium_docker_runner-vendor-portal_project-1  Creating
+ Container selenium_docker_runner-vendor-portal_project-1  Created
+Attaching to chrome-1, firefox-1, hub-1, vendor-portal_project-1
+hub-1                    | 2024-01-30 05:43:17,405 INFO Included extra file "/etc/supervisor/conf.d/selenium-grid-hub.conf" during parsing
+hub-1                    | 2024-01-30 05:43:17,436 INFO RPC interface 'supervisor' initialized
+hub-1                    | 2024-01-30 05:43:17,439 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+hub-1                    | 2024-01-30 05:43:17,443 INFO supervisord started with pid 8
+chrome-1                 | 2024-01-30 05:43:17,993 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+chrome-1                 | 2024-01-30 05:43:18,003 INFO RPC interface 'supervisor' initialized
+chrome-1                 | 2024-01-30 05:43:18,003 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+chrome-1                 | 2024-01-30 05:43:18,006 INFO supervisord started with pid 8
+firefox-1                | 2024-01-30 05:43:18,135 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+firefox-1                | 2024-01-30 05:43:18,143 INFO RPC interface 'supervisor' initialized
+firefox-1                | 2024-01-30 05:43:18,143 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+firefox-1                | 2024-01-30 05:43:18,146 INFO supervisord started with pid 8
+vendor-portal_project-1  | runner.sh: line 2: : not found
+vendor-portal_project-1  | runner.sh: line 9: : not found
+vendor-portal_project-1  | runner.sh: line 16: : not found
+vendor-portal_project-1  | -------------------------------------------
+vendor-portal_project-1  | HUB_HOST      : hub
+vendor-portal_project-1  | BROWSER       : chrome
+vendor-portal_project-1  | THREAD_COUNT  : 1
+vendor-portal_project-1  | -------------------------------------------
+vendor-portal_project-1  | Checking if hub is ready..!
+vendor-portal_project-1  | runner.sh: line 41: syntax error: unexpected end of file (expecting "then")
+hub-1                    | 2024-01-30 05:43:18,450 INFO spawned: 'selenium-grid-hub' with pid 9
+hub-1                    | Tracing is disabled
+hub-1                    | 2024-01-30 05:43:18,470 INFO success: selenium-grid-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+vendor-portal_project-1 exited with code 2
+chrome-1                 | 2024-01-30 05:43:19,010 INFO spawned: 'xvfb' with pid 9
+chrome-1                 | 2024-01-30 05:43:19,018 INFO spawned: 'vnc' with pid 10
+chrome-1                 | 2024-01-30 05:43:19,024 INFO spawned: 'novnc' with pid 11
+chrome-1                 | 2024-01-30 05:43:19,031 INFO spawned: 'selenium-node' with pid 14
+chrome-1                 | 2024-01-30 05:43:19,068 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+firefox-1                | 2024-01-30 05:43:19,151 INFO spawned: 'xvfb' with pid 9
+firefox-1                | 2024-01-30 05:43:19,157 INFO spawned: 'vnc' with pid 10
+firefox-1                | 2024-01-30 05:43:19,165 INFO spawned: 'novnc' with pid 11
+firefox-1                | 2024-01-30 05:43:19,174 INFO spawned: 'selenium-node' with pid 15
+firefox-1                | 2024-01-30 05:43:19,252 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+chrome-1                 | Generating Selenium Config
+firefox-1                | Generating Selenium Config
+chrome-1                 | Configuring server...
+chrome-1                 | Setting up SE_NODE_HOST...
+chrome-1                 | Setting up SE_NODE_PORT...
+chrome-1                 | Setting up SE_NODE_GRID_URL...
+firefox-1                | Configuring server...
+firefox-1                | Setting up SE_NODE_HOST...
+firefox-1                | Setting up SE_NODE_PORT...
+firefox-1                | Setting up SE_NODE_GRID_URL...
+firefox-1                | Tracing is disabled
+firefox-1                | Selenium Grid Node configuration: 
+chrome-1                 | Tracing is disabled
+chrome-1                 | Selenium Grid Node configuration: 
+firefox-1                | [events]
+firefox-1                | publish = "tcp://hub:4442"
+firefox-1                | subscribe = "tcp://hub:4443"
+firefox-1                | 
+firefox-1                | [node]
+firefox-1                | session-timeout = "300"
+firefox-1                | override-max-sessions = true
+firefox-1                | detect-drivers = false
+firefox-1                | drain-after-session-count = 0
+firefox-1                | max-sessions = 4
+firefox-1                | 
+firefox-1                | [[node.driver-configuration]]
+firefox-1                | display-name = "firefox"
+firefox-1                | stereotype = '{"browserName": "firefox", "browserVersion": "120.0", "platformName": "Linux", "moz:firefoxOptions": {"binary": "/usr/bin/firefox"}}'
+firefox-1                | max-sessions = 4
+firefox-1                | 
+firefox-1                | Starting Selenium Grid Node...
+chrome-1                 | [events]
+chrome-1                 | publish = "tcp://hub:4442"
+chrome-1                 | subscribe = "tcp://hub:4443"
+chrome-1                 | 
+chrome-1                 | [node]
+chrome-1                 | session-timeout = "300"
+chrome-1                 | override-max-sessions = true
+chrome-1                 | detect-drivers = false
+chrome-1                 | drain-after-session-count = 0
+chrome-1                 | max-sessions = 4
+chrome-1                 | 
+chrome-1                 | [[node.driver-configuration]]
+chrome-1                 | display-name = "chrome"
+chrome-1                 | stereotype = '{"browserName": "chrome", "browserVersion": "119.0", "platformName": "Linux", "goog:chromeOptions": {"binary": "/usr/bin/google-chrome"}}'
+chrome-1                 | max-sessions = 4
+chrome-1                 | 
+chrome-1                 | Starting Selenium Grid Node...
+chrome-1                 | 2024-01-30 05:43:20,012 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-1                 | 2024-01-30 05:43:20,015 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-1                 | 2024-01-30 05:43:20,019 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+firefox-1                | 2024-01-30 05:43:20,150 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+firefox-1                | 2024-01-30 05:43:20,235 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+firefox-1                | 2024-01-30 05:43:20,237 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+hub-1                    | 05:43:20.702 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+hub-1                    | 05:43:20.766 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+hub-1                    | 05:43:21.473 INFO [BoundZmqEventBus.<init>] - XPUB binding to [binding to tcp://*:4442, advertising as tcp://172.25.0.2:4442], XSUB binding to [binding to tcp://*:4443, advertising as tcp://172.25.0.2:4443]
+firefox-1                | 05:43:21.659 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+hub-1                    | 05:43:21.703 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://172.25.0.2:4442 and tcp://172.25.0.2:4443
+firefox-1                | 05:43:21.717 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+chrome-1                 | 05:43:21.678 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+chrome-1                 | 05:43:21.736 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+hub-1                    | 05:43:21.823 INFO [UnboundZmqEventBus.<init>] - Sockets created
+chrome-1                 | 05:43:22.233 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://hub:4442 and tcp://hub:4443
+firefox-1                | 05:43:22.250 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://hub:4442 and tcp://hub:4443
+chrome-1                 | 05:43:22.488 INFO [UnboundZmqEventBus.<init>] - Sockets created
+firefox-1                | 05:43:22.510 INFO [UnboundZmqEventBus.<init>] - Sockets created
+hub-1                    | 05:43:22.833 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+chrome-1                 | 05:43:23.493 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+firefox-1                | 05:43:23.519 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+chrome-1                 | 05:43:24.026 INFO [NodeServer.createHandlers] - Reporting self as: http://172.25.0.3:5555
+firefox-1                | 05:43:24.101 INFO [NodeServer.createHandlers] - Reporting self as: http://172.25.0.4:5555
+chrome-1                 | 05:43:24.157 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
+chrome-1                 | 05:43:24.160 WARN [NodeOptions.getSessionFactories] - Overriding max recommended number of 8 concurrent sessions. Session stability and reliability might suffer!
+chrome-1                 | 05:43:24.166 WARN [NodeOptions.getSessionFactories] - One browser session is recommended per available processor. Safari is always limited to 1 session per host.
+chrome-1                 | 05:43:24.169 WARN [NodeOptions.getSessionFactories] - Overriding this value for Internet Explorer is not recommended. Issues related to parallel testing with Internet Explored won't be accepted.
+chrome-1                 | 05:43:24.172 WARN [NodeOptions.getSessionFactories] - Double check if enabling 'override-max-sessions' is really needed
+firefox-1                | 05:43:24.204 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
+firefox-1                | 05:43:24.210 WARN [NodeOptions.getSessionFactories] - Overriding max recommended number of 8 concurrent sessions. Session stability and reliability might suffer!
+firefox-1                | 05:43:24.212 WARN [NodeOptions.getSessionFactories] - One browser session is recommended per available processor. Safari is always limited to 1 session per host.
+firefox-1                | 05:43:24.215 WARN [NodeOptions.getSessionFactories] - Overriding this value for Internet Explorer is not recommended. Issues related to parallel testing with Internet Explored won't be accepted.
+firefox-1                | 05:43:24.218 WARN [NodeOptions.getSessionFactories] - Double check if enabling 'override-max-sessions' is really needed
+firefox-1                | 05:43:24.551 INFO [NodeOptions.report] - Adding firefox for {"browserName": "firefox","browserVersion": "120.0","moz:firefoxOptions": {"binary": "\u002fusr\u002fbin\u002ffirefox"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 4 times
+chrome-1                 | 05:43:24.581 INFO [NodeOptions.report] - Adding chrome for {"browserName": "chrome","browserVersion": "119.0","goog:chromeOptions": {"binary": "\u002fusr\u002fbin\u002fgoogle-chrome"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 4 times
+firefox-1                | 05:43:24.787 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chrome-1                 | 05:43:24.836 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chrome-1                 | 05:43:25.666 INFO [NodeServer$1.start] - Starting registration process for Node http://172.25.0.3:5555
+firefox-1                | 05:43:25.669 INFO [NodeServer$1.start] - Starting registration process for Node http://172.25.0.4:5555
+chrome-1                 | 05:43:25.675 INFO [NodeServer.execute] - Started Selenium node 4.15.0 (revision 1d14b5521b): http://172.25.0.3:5555
+firefox-1                | 05:43:25.676 INFO [NodeServer.execute] - Started Selenium node 4.15.0 (revision 1d14b5521b): http://172.25.0.4:5555
+hub-1                    | 05:43:25.710 INFO [Hub.execute] - Started Selenium Hub 4.15.0 (revision 1d14b5521b): http://172.25.0.2:4444
+chrome-1                 | 05:43:25.737 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+firefox-1                | 05:43:25.743 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+hub-1                    | 05:43:25.940 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+hub-1                    | 05:43:27.196 INFO [GridModel.setAvailability] - Switching Node 6f552abf-a436-4d0c-8887-0868a7939aa3 (uri: http://172.25.0.3:5555) from DOWN to UP
+hub-1                    | 05:43:27.199 INFO [LocalDistributor.add] - Added node 6f552abf-a436-4d0c-8887-0868a7939aa3 at http://172.25.0.3:5555. Health check every 120s
+chrome-1                 | 05:43:27.231 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+hub-1                    | 05:43:27.255 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+hub-1                    | 05:43:27.692 INFO [GridModel.setAvailability] - Switching Node f5298d23-806b-45d6-9ce3-d5397d90bfcf (uri: http://172.25.0.4:5555) from DOWN to UP
+hub-1                    | 05:43:27.693 INFO [LocalDistributor.add] - Added node f5298d23-806b-45d6-9ce3-d5397d90bfcf at http://172.25.0.4:5555. Health check every 120s
+firefox-1                | 05:43:27.704 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+Aborted by [8mha:////4GN2gB50wyLvHIrcVmkUPpSkmuTRCAMZfqa9WDtSJ226AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZu/dLi1CL9xJTczDwA+rnvwMAAAAA=[0mShivam Test
+Sending interrupt signal to process
+Gracefully stopping... (press Ctrl+C again to force)
+ Container selenium_docker_runner-vendor-portal_project-1  Stopping
+ Container selenium_docker_runner-vendor-portal_project-1  Stopped
+ Container selenium_docker_runner-firefox-1  Stopping
+ Container selenium_docker_runner-chrome-1  Stopping
+ Container selenium_docker_runner-firefox-1  Stopped
+firefox-1 exited with code 0
+firefox-1 exited with code 143
+ Container selenium_docker_runner-chrome-1  Stopped
+ Container selenium_docker_runner-hub-1  Stopping
+chrome-1 exited with code 0
+chrome-1 exited with code 143
+Terminate batch job (Y/N)? 
+script returned exit code -1
+Aborted by [8mha:////4GN2gB50wyLvHIrcVmkUPpSkmuTRCAMZfqa9WDtSJ226AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZu/dLi1CL9xJTczDwA+rnvwMAAAAA=[0mShivam Test
+[8mha:////4DBgKbW5Di/bCF4zeiaL8EGKAgTHE2GrV4NgSBTQErL9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N7BnLt++AAAA[0m[Pipeline] }
+[8mha:////4Mce3mUSqRzpnmejNektWrYKGe1SrGI6KSUvWW0bjpqGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N4glvS6+AAAA[0m[Pipeline] // stage
+[8mha:////4Ow1B5Py8WdsoO/hZV5O3JdGvgd2b7CCh0kyu93iiTDMAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUnRgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9ANydZ8vCAAAA[0m[Pipeline] stage
+[8mha:////4NzKXmJxq5xIFKd65/Mg4O0PLZC6JHCKZJ0SMRVgVMzmAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Bring Grid Down)
+Aborted by [8mha:////4GN2gB50wyLvHIrcVmkUPpSkmuTRCAMZfqa9WDtSJ226AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZu/dLi1CL9xJTczDwA+rnvwMAAAAA=[0mShivam Test
+[8mha:////4JamOLdHzByzARDkDTupilSjB3t2ypq0k9peSP2yEKi4AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7ndf2r3BkN+Pj++AAAA[0m[Pipeline] }
+[8mha:////4IsgPDUyrAyRNGiG0VM0urAm6TLaeOLiYxXyVMtd1+iXAAABAh+LCAAAAAAAAP9djLFOwzAURV9SwYwYERu7XTHQqqhTG4mKkKKknasQjOPE+Bn7hZaFj+A3yoLEL/AR/AAbMwMLQZngLvcs5zx/wo53MEUnWSVMrYwvFLO6kS2xNbr6RuOa+cZadMQ8CeuZMrYhdjnPFmcPVjitTJ0gib333uvX4PsjhCCGXuM0wX5c5fc517mRPCOnjDzdODgsm2uPhhVoPGrB/lROxtuX8ZN9CyGcwa4WRlLZ5e7gEYJWP/inT7r/laFbEAJsbAuMIDgiGJREdsS5xiLXJXoaDfvDPq/wimdRHCWz5cVqOp+cR+kqXSZJlPJjTsLd/gDonSG1HgEAAA==[0mClick here to forcibly terminate running steps
+[8mha:////4GfovpUlXL4qVG7ZR+h9UAqZvJd53pqIPPfP/PYbC2caAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICNBQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AGHKGa5vgAAAA==[0m[Pipeline] // stage
+[8mha:////4GhjxFkLGncsTKArJWZtfqClIkJfoCjxwkymqMeEyGKoAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJRaBEVreWGF5jEGDvWnbEvJBUv4mv8AYtIVGyx2tlmXm9Y5wRHSlZ4g4PD3DkRw2jLEhOl4RpoEp4uoiPMFIxQZlLUm9OCitjAkqqGlYSNwS5QdmgZttLrh26CRtucOZXvIKF2/R2eUMliZp34C3OC3W3sM+HP81cAc4wM9b4t1bYfF15Zm74AAAA=[0m[Pipeline] }
+[8mha:////4Kx2O+FAIOfTYSMwVF5+MNnLcGZu7ezU3hDis8NiXqi8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICaRFVWisNLzCxMU6sO2M7JBUv4mv8AYtIVGyx2tlmXm9YxwAnDgZ7TYOl2Fn0bjR54cRhuDqesOcLdkyRncZWTy0r3SzYctKwpChhJWCjqXMcLZkEW9HLh6ycJFOdU8jfUUBp1R2eUIhsTjKkL8wBdrdRRaaf568AZu8TlHWd67D/AC8cymq+AAAA[0m[Pipeline] // withEnv
+[8mha:////4LUEEQTGtzr+Xam6TcDMnTVkuqCRXxBU2GkEBln7QgnJAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRgA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Qb3eCbP8B+yNxE70AAAA=[0m[Pipeline] }
+[8mha:////4BN/yQh6AMqaKUsYoDLZEt/ix8W1Eiwo9lFg0k5BFkC+AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRgA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Qb/eCbPcBSGo1P70AAAA=[0m[Pipeline] // node
+[8mha:////4F87gG+y8vo8C8TyHwDHl3b+tdXhca0z1UV/A68jc+HiAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkJE7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHbnNSdb0AAAA=[0m[Pipeline] End of Pipeline
+Aborted by [8mha:////4GN2gB50wyLvHIrcVmkUPpSkmuTRCAMZfqa9WDtSJ226AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZu/dLi1CL9xJTczDwA+rnvwMAAAAA=[0mShivam Test
+org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: b8624a47-f18b-4f82-9b59-3d7dbb856828
+Finished: ABORTED

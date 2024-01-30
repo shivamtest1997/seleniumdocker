@@ -5,6 +5,7 @@
 #     HUB_HOST
 #     BROWSER
 #     THREAD_COUNT
+#     TEST_SUITE
 #-------------------------------------------------------------------
 
 # Let's print what we have received
@@ -12,6 +13,7 @@ echo "-------------------------------------------"
 echo "HUB_HOST      : ${HUB_HOST:-hub}"
 echo "BROWSER       : ${BROWSER:-chrome}"
 echo "THREAD_COUNT  : ${THREAD_COUNT:-1}"
+echo "TEST_SUITE    : ${TEST_SUITE}"
 echo "-------------------------------------------"
 
 # Do not start the tests immediately. Hub has to be ready with browser nodes
@@ -33,9 +35,11 @@ done
 echo "Selenium Grid is up and running. Running the test...."
 
 # Start the java command
+java -cp 'libs/*' \
+     -DseleniumGridEnabled=true \
+     -DseleniumGridHubHost=${HUBHOST:-hub} \
+     -Dbrowser=${BROWSER:-chrome}  \
+     org.testng.TestNG \
+     -threadcount "${THREAD_COUNT:-1}" \
+     test-suites/vendorPortal.xml
 
-java -cp 'libs/*' -DseleniumGridEnabled=true \
-                 -Dbrowser=${BROWSER:-chrome}  \
-                 -DseleniumGridHubHost=${HUBHOST:-hub} \
-                  -threadcount=${THREADCOUNT:-2} \
-                  org.testng.TestNG test-suites/vendorPortal.xml
