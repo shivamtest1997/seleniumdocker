@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-01-30 03:29:00.843 UTC</timestamp>
+  <md5sum>747fca7ecf6f8cdada79567bc5c90125</md5sum>
+  <fileName>Credential id=dockerhub-creds name=shivamtest1997/****** (dockerhub-creds)</fileName>
+  <usages>
+    <entry>
+      <string>SELENIUM_DOCKER_PIPELINE</string>
+      <ranges>3,5</ranges>
+    </entry>
+    <entry>
+      <string>SELENIUM_DOCKER_BUILDER</string>
+      <ranges>31,33</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
