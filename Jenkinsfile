@@ -2,7 +2,10 @@ pipeline
 {
 
     agent any
-
+     environment {
+        DOCKER_HUB_CREDENTIALS = credentials('dockerhub-creds')
+        IMAGE_NAME = 'shivamtest1997/selenium_docker_jenkins'
+    }
     stages{
 
         stage("build jar file"){
@@ -18,16 +21,13 @@ pipeline
 
         }
         stage('Push Image'){
-            environment{
-                DOCKER_HUB = credentials('dockerhub-creds')
+            steps {
+                      script {
+                            docker.withRegistry('https://registry.hub.docker.com', DOCKER_HUB_CREDENTIALS) {
+                                    docker.image(IMAGE_NAME).push()
+                            }
+                     }
             }
-            steps{
-                bat '${DOCKER_HUB_PSW} | docker login -u ${DOCKER_HUB_USR} --password-stdin'
-                bat 'docker push shivamtest1997/selenium_docker_jenkins:latest'
-                bat "docker tag shivamtest1997/selenium_docker_jenkins:latest shivamtest1997/selenium_docker_jenkins:${env.BUILD_NUMBER}"
-                bat "docker push shivamtest1997/selenium_docker_jenkins:${env.BUILD_NUMBER}"
-            }
-        }
 
     }
 
