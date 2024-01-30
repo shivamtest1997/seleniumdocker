@@ -41,5 +41,5 @@ java -cp 'libs/*' \
      -Dbrowser=${BROWSER:-chrome}  \
      org.testng.TestNG \
      -threadcount "${THREAD_COUNT:-1}" \
-     test-suites/vendorPortal.xml
+     test-suites/"vendorPortal.xml"
 
