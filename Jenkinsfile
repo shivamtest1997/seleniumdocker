@@ -17,21 +17,18 @@ pipeline
             }
 
         }
-        stage("push docker image"){
-
-                environment{
-
-                    DOCKER_HUB_CREDS=credentials('dockerhub-creds')
-                }
-
-              steps{
-                    echo "${DOCKER_HUB_USR} and ${DOCKER_HUB_PSW} "
-                    bat 'echo ${DOCKER_HUB_PSW} | docker login -u ${DOCKER_HUB_USR} --password-stdin'
-                    bat 'docker login -u ${DOCKER_HUB_USR} -p ${DOCKER_HUB_PSW}'
-                    bat 'docker push selenium_docker_jenkins'
-              }
-
+        stage('Push Image'){
+            environment{
+                DOCKER_HUB = credentials('dockerhub-creds')
             }
+            steps{
+                bat 'echo ${DOCKER_HUB_PSW} | docker login -u ${DOCKER_HUB_USR} --password-stdin'
+                bat 'docker push shivamtest1997/selenium_docker_jenkins:latest'
+                bat "docker tag shivamtest1997/selenium_docker_jenkins:latest shivamtest1997/selenium_docker_jenkins:${env.BUILD_NUMBER}"
+                bat "docker push shivamtest1997/selenium_docker_jenkins:${env.BUILD_NUMBER}"
+            }
+        }
+
     }
 
     post{
